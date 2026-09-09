@@ -1,234 +1,25 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wildeveld Biltong | Small-Batch Biltong</title>
-  <meta name="description" content="Wildeveld Biltong — small-batch biltong with deep flavour, proper texture and a traditional feel." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="Wildeveld Biltong home">
-    <div class="brand-mark">W</div>
-    <div>
-      <strong>WILDEVELD</strong>
-      <span>BILTONG</span>
-    </div>
-  </a>
-  <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
-  <nav class="nav">
-    <a href="#shop">Shop</a>
-    <a href="#craft">Our Craft</a>
-    <a href="#about">About</a>
-    <a href="#faq">FAQ</a>
-    <button class="cart-btn" id="cartBtn">Basket <span id="cartCount">0</span></button>
-  </nav>
-</header>
-
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wildeveld Biltong | Proper South African Biltong</title>
+<meta name="description" content="Wildeveld Biltong — small-batch traditional and chilli biltong, made for proper flavour and texture.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header class="site-header"><a class="brand" href="#top" aria-label="Wildeveld Biltong home"><img class="brand-logo" src="assets/logo.webp" alt="Wildeveld Biltong logo"></a><button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button><nav class="nav"><a href="#shop">Shop</a><a href="#craft">Our Craft</a><a href="#about">About</a><a href="#faq">FAQ</a><button class="cart-btn" id="cartBtn">Basket <span id="cartCount">0</span></button></nav></header>
 <main id="top">
-  <section class="hero">
-    <div class="hero-overlay"></div>
-    <img src="" data-img="hero" alt="Sliced biltong on a rustic wooden board" class="hero-bg" />
-    <div class="hero-content">
-      <p class="eyebrow">SMALL-BATCH BILTONG</p>
-      <h1>Proper biltong.<br>Nothing unnecessary.</h1>
-      <p class="hero-copy">Deep flavour, honest ingredients and a texture worth slowing down for.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#shop">Shop biltong</a>
-        <a class="btn btn-ghost" href="#craft">See how it’s made</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="trust-strip">
-    <div><strong>Small batch</strong><span>Made with attention, not rushed</span></div>
-    <div><strong>Traditional feel</strong><span>Seasoned, cured and dried for character</span></div>
-    <div><strong>Simple ingredients</strong><span>No gimmicks — just proper biltong</span></div>
-    <div><strong>UK delivery ready</strong><span>Connect your chosen checkout and courier</span></div>
-  </section>
-
-  <section id="shop" class="section shop-section">
-    <div class="section-heading">
-      <p class="eyebrow">THE RANGE</p>
-      <h2>Choose your cut</h2>
-      <p>Start simple. Traditional for the classic profile, chilli when you want a bit more bite.</p>
-    </div>
-
-    <div class="product-grid">
-      <article class="product-card">
-        <div class="product-image-wrap">
-          <img src="" data-img="traditional" alt="Wildeveld Traditional Biltong in clear packaging" />
-          <span class="badge">Classic</span>
-        </div>
-        <div class="product-body">
-          <h3>Traditional Biltong</h3>
-          <p>Rich, savoury and straightforward. Built around the familiar biltong profile.</p>
-          <div class="option-row">
-            <label for="trad-size">Size</label>
-            <select id="trad-size">
-              <option>100g</option>
-              <option>250g</option>
-              <option>500g</option>
-            </select>
-          </div>
-          <div class="buy-row">
-            <span class="price">£6.95</span>
-            <button class="btn btn-dark add-cart" data-name="Traditional Biltong" data-price="6.95">Add to basket</button>
-          </div>
-          <small class="note">Replace placeholder pricing and weights with your final product details.</small>
-        </div>
-      </article>
-
-      <article class="product-card">
-        <div class="product-image-wrap">
-          <img src="" data-img="chilli" alt="Wildeveld Chilli Biltong in clear packaging" />
-          <span class="badge badge-hot">Chilli</span>
-        </div>
-        <div class="product-body">
-          <h3>Chilli Biltong</h3>
-          <p>Full biltong flavour with a steady chilli kick that doesn’t overpower the meat.</p>
-          <div class="option-row">
-            <label for="chilli-size">Size</label>
-            <select id="chilli-size">
-              <option>100g</option>
-              <option>250g</option>
-              <option>500g</option>
-            </select>
-          </div>
-          <div class="buy-row">
-            <span class="price">£7.25</span>
-            <button class="btn btn-dark add-cart" data-name="Chilli Biltong" data-price="7.25">Add to basket</button>
-          </div>
-          <small class="note">Replace placeholder pricing and weights with your final product details.</small>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section id="craft" class="story-grid">
-    <div class="story-image large">
-      <img src="" data-img="hero" alt="Biltong hanging during the drying process" />
-    </div>
-    <div class="story-copy">
-      <p class="eyebrow">OUR CRAFT</p>
-      <h2>Season. Hang. Wait.</h2>
-      <p>Good biltong is as much about patience as seasoning. The point is not to rush the drying process — it is to build texture and flavour properly.</p>
-      <p>This section is ready for your exact recipe story, sourcing, drying time and food-safety details once you want to publish them.</p>
-      <a class="text-link" href="#about">Read the Wildeveld story →</a>
-    </div>
-  </section>
-
-  <section class="section process-section">
-    <div class="section-heading">
-      <p class="eyebrow">FROM WHOLE CUT TO SNACK</p>
-      <h2>Built around the product</h2>
-    </div>
-    <div class="process-grid">
-      <figure>
-        <img src="" data-img="chopper" alt="Biltong drying cabinet with strips hanging inside" />
-        <figcaption><span>01</span><strong>Controlled drying</strong><p>Clean, consistent airflow and careful monitoring.</p></figcaption>
-      </figure>
-      <figure>
-        <img src="" data-img="chopper" alt="Traditional wooden biltong chopper slicing biltong" />
-        <figcaption><span>02</span><strong>Freshly sliced</strong><p>Cut to a satisfying thickness using a proper biltong chopper.</p></figcaption>
-      </figure>
-      <figure>
-        <img src="" data-img="traditional" alt="Sliced biltong with visible spice crust" />
-        <figcaption><span>03</span><strong>Ready to eat</strong><p>Pack, seal and enjoy — simple as that.</p></figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <section id="about" class="about-section">
-    <div class="about-copy">
-      <p class="eyebrow">WILDEVELD</p>
-      <h2>A proper biltong brand should feel like the product.</h2>
-      <p>Wildeveld is positioned as warm, rugged and straightforward — premium without becoming polished to the point of losing its character.</p>
-      <p>Use this section for your real founder story: why you started, what biltong means to you, and why customers should buy from Wildeveld rather than a supermarket packet.</p>
-    </div>
-    <img src="" data-img="traditional" alt="Biltong sticks presented in a wooden bowl" />
-  </section>
-
-  <section class="cta-section">
-    <div>
-      <p class="eyebrow">FIRST ORDER?</p>
-      <h2>Start with the mixed box.</h2>
-      <p>A simple bundle of Traditional and Chilli is an easy entry point for new customers.</p>
-    </div>
-    <button class="btn btn-light add-cart" data-name="Wildeveld Mixed Box" data-price="24.95">Add mixed box — £24.95</button>
-  </section>
-
-  <section id="faq" class="section faq-section">
-    <div class="section-heading">
-      <p class="eyebrow">FAQ</p>
-      <h2>Useful before ordering</h2>
-    </div>
-    <div class="faq-list">
-      <details>
-        <summary>How should I store the biltong?</summary>
-        <p>Add your actual storage guidance here based on your packaging, moisture level and food-safety process.</p>
-      </details>
-      <details>
-        <summary>How long does delivery take?</summary>
-        <p>Replace this with your actual dispatch times, courier and UK delivery windows.</p>
-      </details>
-      <details>
-        <summary>What allergens are present?</summary>
-        <p>Add the exact allergen declaration from your recipe and approved product labelling before launch.</p>
-      </details>
-      <details>
-        <summary>Can I choose wet or dry biltong?</summary>
-        <p>If you intend to offer moisture-level options, list them here. Otherwise remove this question.</p>
-      </details>
-    </div>
-  </section>
-
-  <section class="newsletter">
-    <div>
-      <p class="eyebrow">WILDEVELD MAIL</p>
-      <h2>Restocks, new flavours and no spam.</h2>
-    </div>
-    <form onsubmit="event.preventDefault(); alert('Connect this form to your email provider before launch.');">
-      <input type="email" placeholder="Your email address" required aria-label="Email address" />
-      <button class="btn btn-dark" type="submit">Join the list</button>
-    </form>
-  </section>
+<section class="hero brand-hero"><div class="hero-overlay"></div><img src="assets/logo.webp" alt="Wildeveld Biltong" class="hero-bg brand-hero-bg"><div class="hero-content"><p class="eyebrow">SOUTH AFRICAN INSPIRED • SMALL BATCH</p><h1>Proper biltong.<br>Made the Wildeveld way.</h1><p class="hero-copy">Deep beef flavour, traditional seasoning and a proper bite. Available in Traditional and Chilli.</p><div class="hero-actions"><a class="btn btn-primary" href="#shop">Shop biltong</a><a class="btn btn-ghost" href="#craft">Our craft</a></div></div></section>
+<section class="trust-strip"><div><strong>200 g packs</strong><span>A proper bag of biltong</span></div><div><strong>Small batch</strong><span>Made with attention, not rushed</span></div><div><strong>Traditional flavour</strong><span>Seasoned and dried for character</span></div><div><strong>Two flavours</strong><span>Traditional or Chilli</span></div></section>
+<section id="shop" class="section shop-section"><div class="section-heading"><p class="eyebrow">THE RANGE</p><h2>Choose your flavour</h2><p>Two straightforward choices: classic Traditional or Chilli with a steady kick.</p></div><div class="product-grid">
+<article class="product-card"><div class="product-image-wrap label-wrap"><img src="assets/traditional-label.webp" alt="Wildeveld Traditional Biltong label"><span class="badge">Traditional</span></div><div class="product-body"><h3>Traditional Biltong</h3><p>Rich, savoury and straightforward — the familiar biltong profile with proper beef flavour.</p><div class="pack-size">200 g pack</div><div class="buy-row"><span class="price">£12.00</span><button class="btn btn-dark add-cart" data-name="Traditional Biltong — 200g" data-price="12.00">Add to basket</button></div></div></article>
+<article class="product-card"><div class="product-image-wrap label-wrap"><img src="assets/chilli-label.webp" alt="Wildeveld Chilli Biltong label"><span class="badge badge-hot">Chilli</span></div><div class="product-body"><h3>Chilli Biltong</h3><p>Full biltong flavour with a steady chilli kick that complements rather than overpowers the meat.</p><div class="pack-size">200 g pack</div><div class="buy-row"><span class="price">£12.50</span><button class="btn btn-dark add-cart" data-name="Chilli Biltong — 200g" data-price="12.50">Add to basket</button></div></div></article>
+</div></section>
+<section id="craft" class="story-grid"><div class="story-image brand-story"><img src="assets/logo.webp" alt="Wildeveld Biltong logo"></div><div class="story-copy"><p class="eyebrow">OUR CRAFT</p><h2>Season. Dry. Slice.</h2><p>Biltong should taste of good beef first. Wildeveld keeps the focus on a traditional style, patient drying and the texture that makes proper biltong different from ordinary dried meat.</p><p>Every batch is prepared in small quantities, then sliced and packed ready to enjoy.</p><a class="text-link" href="#about">The Wildeveld story →</a></div></section>
+<section id="about" class="about-section"><div class="about-copy"><p class="eyebrow">WILDEVELD</p><h2>Rooted in South African biltong culture.</h2><p>Wildeveld is about the biltong we actually want to eat: straightforward, full of flavour and made without turning it into a generic snack product.</p><p>Traditional when you want the classic profile. Chilli when you want a little more bite.</p></div><div class="about-labels"><img src="assets/traditional-label.webp" alt="Wildeveld Traditional"><img src="assets/chilli-label.webp" alt="Wildeveld Chilli"></div></section>
+<section id="faq" class="section faq-section"><div class="section-heading"><p class="eyebrow">FAQ</p><h2>Before ordering</h2></div><div class="faq-list"><details><summary>How much is in a pack?</summary><p>Each standard Wildeveld pack contains 200 g of biltong.</p></details><details><summary>Which flavours are available?</summary><p>Traditional is £12.00 per 200 g pack and Chilli is £12.50 per 200 g pack.</p></details><details><summary>How should I store it?</summary><p>Final storage, shelf-life and opened-pack guidance will be displayed with the product labelling.</p></details><details><summary>What allergens are present?</summary><p>The full ingredient and allergen declaration will be displayed before checkout once the final production labels are confirmed.</p></details></div></section>
 </main>
-
-<footer>
-  <div class="footer-brand">
-    <div class="brand-mark">W</div>
-    <div><strong>WILDEVELD</strong><span>BILTONG</span></div>
-  </div>
-  <div class="footer-links">
-    <a href="#">Shipping</a>
-    <a href="#">Returns</a>
-    <a href="#">Privacy</a>
-    <a href="#">Terms</a>
-    <a href="#">Contact</a>
-  </div>
-  <p>© <span id="year"></span> Wildeveld Biltong. All rights reserved.</p>
-</footer>
-
-<aside class="cart-panel" id="cartPanel" aria-hidden="true">
-  <div class="cart-header">
-    <h2>Your basket</h2>
-    <button id="closeCart" aria-label="Close basket">×</button>
-  </div>
-  <div id="cartItems" class="cart-items"></div>
-  <div class="cart-total">
-    <span>Total</span><strong id="cartTotal">£0.00</strong>
-  </div>
-  <button class="btn btn-primary full" id="checkoutBtn">Checkout</button>
-  <small>Checkout is a front-end demo. Connect Stripe, Shopify, WooCommerce, Square or Nicepage Ecommerce before going live.</small>
-</aside>
-<div class="scrim" id="scrim"></div>
-
-<script src="images.js"></script>
-<script src="script.js"></script>
-</body>
-</html>
+<footer><div class="footer-brand"><img class="footer-logo" src="assets/logo.webp" alt="Wildeveld Biltong"></div><div class="footer-links"><a href="#shop">Shop</a><a href="#about">About</a><a href="#faq">FAQ</a></div><p>© <span id="year"></span> Wildeveld Biltong. All rights reserved.</p></footer>
+<aside class="cart-panel" id="cartPanel" aria-hidden="true"><div class="cart-header"><h2>Your basket</h2><button id="closeCart" aria-label="Close basket">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-total"><span>Total</span><strong id="cartTotal">£0.00</strong></div><button class="btn btn-primary full" id="checkoutBtn">Checkout</button><small>Online payment is being connected. The basket currently demonstrates the ordering flow.</small></aside><div class="scrim" id="scrim"></div>
+<script src="script.js"></script></body></html>
